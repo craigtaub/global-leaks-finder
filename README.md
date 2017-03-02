@@ -49,3 +49,7 @@ I recommend running in conjunction with Mocha's `check-leaks` flag. It compares 
 
 It runs a global `beforeEach` and `afterEach`.
 For each test it hashes the globals at the start, hashes the globals at the end, and compares the 2 failing if the hash has changed. Hence why it has a hefty performance hit, but hopefully does its job.
+
+## Issues
+
+Please feel free to contact or email me if there are any issues.
