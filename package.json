@@ -2,7 +2,20 @@
   "name": "global-leaks-finder",
   "version": "1.0.0",
   "description": "Manage your tests side-effects",
+  "keywords": [
+    "testing",
+    "mocha",
+    "tdd",
+    "globals",
+    "leaks",
+    "global leaks",
+    "side-effects"
+  ],
   "main": "index.js",
-  "author": "Craig Taub",
+  "author": "Craig Taub <craigtaub@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/craigtaub/global-leaks-finder.git"
+  },
   "license": "ISC"
 }
