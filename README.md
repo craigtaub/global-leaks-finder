@@ -1,6 +1,6 @@
 # Global Leaks finder
 
-A mocha-based testing tool to help find tests which are leaking globals. 
+A mocha-based testing tool to help find tests which are leaking globals.
 
 The aim is to help catch and avoid tests with unexpected side-effects.
 
@@ -13,7 +13,7 @@ beforeEach(() => {
   process.browser = true;
 });
 afterEach(() => {
-  process.browser = false;
+  process.browser = false; // BAD
 });
 ```
 
@@ -26,7 +26,7 @@ beforeEach(() => {
   process.browser = true;
 });
 afterEach(() => {
-  process.browser = cached;
+  process.browser = cached; // BETTER
 });
 ```
 
