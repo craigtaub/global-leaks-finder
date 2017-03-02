@@ -1,6 +1,6 @@
 {
   "name": "global-leaks-finder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Manage your tests side-effects",
   "keywords": [
     "testing",
