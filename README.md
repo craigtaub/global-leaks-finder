@@ -40,7 +40,7 @@ npm install global-leaks-finder
 
 ## Usage
 
-    mocha --check-leaks node_modules/global-leak-finder/index.js <your test files here>
+    mocha --check-leaks node_modules/global-leaks-finder/index.js <your test files here>
 
 ## Mocha's check-leaks options
 I recommend running in conjunction with Mocha's `check-leaks` flag. It compares against a small list of non-enumerable globals (i.e. `global.newVariable = 'some-value';` would be caught) but would not catch something like `process.execPath = 'GLOBAL LEAK';` which this tool would catch.
